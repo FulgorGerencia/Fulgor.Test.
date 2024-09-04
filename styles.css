@@ -1,0 +1,75 @@
+body {
+    font-family: 'Yellow Peas', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.brand-logo {
+    width: 350px;
+    height: auto;
+}
+
+.intro, .questions, .result {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.intro {
+    background-color: #CFAFE9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Rolling Pen Basic', cursive;
+    display: block; /* Para mostrar la introducción al cargar la página */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('FONDO FULGOR 1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.questions {
+    background-color: #F7EDFF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('FONDO FULGOR 2.png') no-repeat center center;
+    background-size: cover;
+}
+
+.result {
+    background-color: #FFF2A6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Rolling Pen Basic', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('FONDO FULGOR 3.png') no-repeat center center;
+    background-size: cover;
+}
+
+.question-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px;
+}
